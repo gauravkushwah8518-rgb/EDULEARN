@@ -1,0 +1,63 @@
+/* Messages CSS */
+.messages-layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  height: 600px;
+  box-shadow: var(--shadow-card);
+}
+.conversations-list {
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+}
+.conversation-item {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.conversation-item:hover, .conversation-item.active {
+  background: var(--surface-alt);
+}
+.chat-pane {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--canvas);
+}
+.chat-header {
+  padding: 20px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  font-weight: 700;
+}
+.chat-body {
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
+.chat-input-bar {
+  padding: 16px 20px;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 12px;
+}
+.chat-input-bar input {
+  flex: 1;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 10px 16px;
+  outline: none;
+  font-family: var(--font-body);
+}
+@media (max-width: 720px) {
+  .messages-layout {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+}

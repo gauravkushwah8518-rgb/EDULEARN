@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>
+      My Courses &mdash; EduLearn
+    </title>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <link href="../css/dashboard.css" rel="stylesheet"/>
+    <link href="../css/home.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="app-layout">
+      <aside class="sidebar">
+        <div>
+          <div class="sidebar-brand">
+            <div class="brand-mark">
+              E
+            </div>
+            EduLearn
+          </div>
+          <div class="sidebar-menu-group">
+            <div class="sidebar-menu-title">
+              Main
+            </div>
+            <div class="sidebar-menu">
+              <a class="sidebar-link" href="./dashboard.html">
+                📊 Dashboard
+              </a>
+              <a class="sidebar-link active" href="./my-courses.html">
+                📚 My Courses
+              </a>
+            </div>
+          </div>
+          <div class="sidebar-menu-group">
+            <div class="sidebar-menu-title">
+              Learning
+            </div>
+            <div class="sidebar-menu">
+              <a class="sidebar-link" href="./assignments.html">
+                📝 Assignments
+              </a>
+              <a class="sidebar-link" href="./certificates.html">
+                🏆 Certificates
+              </a>
+              <a class="sidebar-link" href="./messages.html">
+                💬 Messages
+              </a>
+            </div>
+          </div>
+          <div class="sidebar-menu-group">
+            <div class="sidebar-menu-title">
+              Account
+            </div>
+            <div class="sidebar-menu">
+              <a class="sidebar-link" href="./profile.html">
+                👤 Profile
+              </a>
+              <a class="sidebar-link" href="./settings.html">
+                ⚙️ Settings
+              </a>
+              <a class="sidebar-link" href="../../index.html">
+                🚪 Logout
+              </a>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="dashboard-main">
+        <header class="topbar">
+          <div class="search-box">
+            <span class="search-icon">
+              🔍
+            </span>
+            <input placeholder="Search my courses..." type="text"/>
+          </div>
+          <div class="topbar-actions">
+            <button aria-label="Toggle theme" class="theme-toggle">
+              🌙
+            </button>
+            <div class="notification-btn">
+              🔔
+            </div>
+            <div class="user-profile-chip">
+              <div class="user-avatar">
+                EL
+              </div>
+              <span class="user-name">
+                Learner
+              </span>
+            </div>
+          </div>
+        </header>
+        <div class="dashboard-content">
+          <div style="margin-bottom: 32px;">
+            <h1 style="font-size: 26px; font-weight: 700; margin-bottom: 6px;">
+              My Enrolled Courses
+            </h1>
+            <p style="color: var(--ink-soft); font-size: 15px;">
+              Continue your active learning or explore your completed certifications.
+            </p>
+          </div>
+          <div class="courses-grid">
+            <article class="course-card">
+              <div class="course-thumb">
+                <span class="course-badge">
+                  In Progress
+                </span>
+                <span>
+                  Frontend
+                </span>
+              </div>
+              <div class="course-body">
+                <h3>
+                  Modern Web Development
+                </h3>
+                <p>
+                  Progress: 78% complete. Keep going to finish module 4.
+                </p>
+                <div class="course-footer">
+                  <span class="course-price">
+                    78%
+                  </span>
+                  <a class="btn btn-primary btn-sm" href="./course-details.html">
+                    Resume
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article class="course-card">
+              <div class="course-thumb teal-bg">
+                <span class="course-badge">
+                  In Progress
+                </span>
+                <span>
+                  UI/UX
+                </span>
+              </div>
+              <div class="course-body">
+                <h3>
+                  UI/UX Design Fundamentals
+                </h3>
+                <p>
+                  Progress: 45% complete. Next lesson: Typography Systems.
+                </p>
+                <div class="course-footer">
+                  <span class="course-price">
+                    45%
+                  </span>
+                  <a class="btn btn-primary btn-sm" href="./course-details.html">
+                    Resume
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article class="course-card">
+              <div class="course-thumb amber-bg">
+                <span class="course-badge">
+                  Completed
+                </span>
+                <span>
+                  Python
+                </span>
+              </div>
+              <div class="course-body">
+                <h3>
+                  Python for Data Science
+                </h3>
+                <p>
+                  Completed on August 15, 2026. Certificate available.
+                </p>
+                <div class="course-footer">
+                  <span class="course-price" style="color: var(--teal);">
+                    100%
+                  </span>
+                  <a class="btn btn-outline btn-sm" href="./certificates.html">
+                    Certificate
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../javascript/theme.js">
+    </script>
+    <script src="../javascript/nav.js">
+    </script>
+    <script src="../javascript/auth.js">
+    </script>
+  </body>
+</html>

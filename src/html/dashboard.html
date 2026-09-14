@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>
+      Dashboard &mdash; EduLearn
+    </title>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <link href="../css/dashboard.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="app-layout">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div>
+          <div class="sidebar-brand">
+            <div class="brand-mark">
+              E
+            </div>
+            EduLearn
+          </div>
+          <div class="sidebar-menu-group">
+            <div class="sidebar-menu-title">
+              Main
+            </div>
+            <div class="sidebar-menu">
+              <a class="sidebar-link active" href="./dashboard.html">
+                📊 Dashboard
+              </a>
+              <a class="sidebar-link" href="./my-courses.html">
+                📚 My Courses
+              </a>
+            </div>
+          </div>
+          <div class="sidebar-menu-group">
+            <div class="sidebar-menu-title">
+              Learning
+            </div>
+            <div class="sidebar-menu">
+              <a class="sidebar-link" href="./assignments.html">
+                📝 Assignments
+              </a>
+              <a class="sidebar-link" href="./certificates.html">
+                🏆 Certificates
+              </a>
+              <a class="sidebar-link" href="./messages.html">
+                💬 Messages
+              </a>
+            </div>
+          </div>
+          <div class="sidebar-menu-group">
+            <div class="sidebar-menu-title">
+              Account
+            </div>
+            <div class="sidebar-menu">
+              <a class="sidebar-link" href="./profile.html">
+                👤 Profile
+              </a>
+              <a class="sidebar-link" href="./settings.html">
+                ⚙️ Settings
+              </a>
+              <a class="sidebar-link" href="../../index.html">
+                🚪 Logout
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar-upgrade">
+          <h5>
+            Go Pro
+          </h5>
+          <p>
+            Unlock all 120+ premium courses
+          </p>
+          <a class="btn btn-primary btn-sm" href="./courses.html" style="width: 100%;">
+            Explore
+          </a>
+        </div>
+      </aside>
+      <!-- Main Content -->
+      <div class="dashboard-main">
+        <header class="topbar">
+          <div class="search-box">
+            <span class="search-icon">
+              🔍
+            </span>
+            <input placeholder="Search courses, lessons, certificates..." type="text"/>
+          </div>
+          <div class="topbar-actions">
+            <button aria-label="Toggle theme" class="theme-toggle">
+              🌙
+            </button>
+            <div aria-label="Notifications" class="notification-btn">
+              🔔
+            </div>
+            <div class="user-profile-chip">
+              <div class="user-avatar user-avatar-live">
+                EL
+              </div>
+              <span class="user-name" data-user-name="">
+                Learner
+              </span>
+            </div>
+          </div>
+        </header>
+        <div class="dashboard-content">
+          <div class="welcome-banner">
+            <div class="welcome-text">
+              <h1>
+                Good morning,
+                <span data-user-name="">
+                  Learner
+                </span>
+                👋
+              </h1>
+              <p>
+                Ready to continue your learning journey today?
+              </p>
+            </div>
+            <div class="streak-chip">
+              🔥 7 Day Streak
+            </div>
+          </div>
+          <!-- Stats Cards Grid -->
+          <div class="stats-cards-grid">
+            <div class="stat-card">
+              <div class="stat-card-icon violet">
+                📚
+              </div>
+              <div class="stat-card-info">
+                <div class="stat-val">
+                  4
+                </div>
+                <div class="stat-lbl">
+                  In Progress
+                </div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-card-icon teal">
+                🎓
+              </div>
+              <div class="stat-card-info">
+                <div class="stat-val">
+                  12
+                </div>
+                <div class="stat-lbl">
+                  Completed Courses
+                </div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-card-icon amber">
+                ⏱️
+              </div>
+              <div class="stat-card-info">
+                <div class="stat-val">
+                  86h
+                </div>
+                <div class="stat-lbl">
+                  Learning Hours
+                </div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-card-icon coral">
+                🏆
+              </div>
+              <div class="stat-card-info">
+                <div class="stat-val">
+                  8
+                </div>
+                <div class="stat-lbl">
+                  Certificates Earned
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2 Column Section -->
+          <div class="dashboard-grid-2col">
+            <div>
+              <div class="dash-box">
+                <div class="dash-box-header">
+                  <h3>
+                    Continue Learning
+                  </h3>
+                  <a href="./my-courses.html">
+                    View All
+                  </a>
+                </div>
+                <div class="learning-item">
+                  <div class="learning-info">
+                    <h4>
+                      Modern Web Development
+                    </h4>
+                    <p>
+                      Module 3: CSS Grid &amp; Flexbox Layouts
+                    </p>
+                  </div>
+                  <div class="learning-progress-wrap">
+                    <div class="prog-bar">
+                      <div class="prog-fill" style="width: 78%;">
+                      </div>
+                    </div>
+                    <div class="prog-pct">
+                      78% completed
+                    </div>
+                  </div>
+                </div>
+                <div class="learning-item" style="margin-top: 16px;">
+                  <div class="learning-info">
+                    <h4>
+                      UI/UX Design Fundamentals
+                    </h4>
+                    <p>
+                      Module 2: Figma Design Systems
+                    </p>
+                  </div>
+                  <div class="learning-progress-wrap">
+                    <div class="prog-bar">
+                      <div class="prog-fill" style="width: 45%;">
+                      </div>
+                    </div>
+                    <div class="prog-pct">
+                      45% completed
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="dash-box">
+                  <div class="dash-box-header">
+                    <h3>
+                      Recent Activity
+                    </h3>
+                  </div>
+                  <div class="activity-list">
+                    <div class="activity-item">
+                      <div class="activity-dot">
+                      </div>
+                      <div class="activity-body">
+                        <h5>
+                          Completed "Flexbox Layout"
+                        </h5>
+                        <span>
+                          2 hours ago
+                        </span>
+                      </div>
+                    </div>
+                    <div class="activity-item">
+                      <div class="activity-dot" style="background: var(--teal); box-shadow: 0 0 0 4px var(--teal-soft);">
+                      </div>
+                      <div class="activity-body">
+                        <h5>
+                          Started "Python Basics"
+                        </h5>
+                        <span>
+                          Yesterday
+                        </span>
+                      </div>
+                    </div>
+                    <div class="activity-item">
+                      <div class="activity-dot" style="background: var(--amber); box-shadow: 0 0 0 4px var(--amber-soft);">
+                      </div>
+                      <div class="activity-body">
+                        <h5>
+                          Earned UI/UX Certificate
+                        </h5>
+                        <span>
+                          3 days ago
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="../javascript/theme.js">
+      </script>
+      <script src="../javascript/nav.js">
+      </script>
+      <script src="../javascript/auth.js">
+      </script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>
+      Settings &mdash; EduLearn
+    </title>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <link href="../css/dashboard.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="app-layout">
+      <aside class="sidebar">
+        <div>
+          <div class="sidebar-brand">
+            <div class="brand-mark">
+              E
+            </div>
+            EduLearn
+          </div>
+          <div class="sidebar-menu-group">
+            <div class="sidebar-menu-title">
+              Main
+            </div>
+            <div class="sidebar-menu">
+              <a class="sidebar-link" href="./dashboard.html">
+                📊 Dashboard
+              </a>
+              <a class="sidebar-link" href="./my-courses.html">
+                📚 My Courses
+              </a>
+            </div>
+          </div>
+          <div class="sidebar-menu-group">
+            <div class="sidebar-menu-title">
+              Learning
+            </div>
+            <div class="sidebar-menu">
+              <a class="sidebar-link" href="./assignments.html">
+                📝 Assignments
+              </a>
+              <a class="sidebar-link" href="./certificates.html">
+                🏆 Certificates
+              </a>
+              <a class="sidebar-link" href="./messages.html">
+                💬 Messages
+              </a>
+            </div>
+          </div>
+          <div class="sidebar-menu-group">
+            <div class="sidebar-menu-title">
+              Account
+            </div>
+            <div class="sidebar-menu">
+              <a class="sidebar-link" href="./profile.html">
+                👤 Profile
+              </a>
+              <a class="sidebar-link active" href="./settings.html">
+                ⚙️ Settings
+              </a>
+              <a class="sidebar-link" href="../../index.html">
+                🚪 Logout
+              </a>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="dashboard-main">
+        <header class="topbar">
+          <div class="search-box">
+            <span class="search-icon">
+              🔍
+            </span>
+            <input placeholder="Search settings..." type="text"/>
+          </div>
+          <div class="topbar-actions">
+            <button aria-label="Toggle theme" class="theme-toggle">
+              🌙
+            </button>
+            <div class="notification-btn">
+              🔔
+            </div>
+            <div class="user-profile-chip">
+              <div class="user-avatar">
+                EL
+              </div>
+              <span class="user-name">
+                Learner
+              </span>
+            </div>
+          </div>
+        </header>
+        <div class="dashboard-content">
+          <div style="margin-bottom: 32px;">
+            <h1 style="font-size: 26px; font-weight: 700; margin-bottom: 6px;">
+              Account Settings
+            </h1>
+            <p style="color: var(--ink-soft); font-size: 15px;">
+              Manage your preferences, appearance, and notification channels.
+            </p>
+          </div>
+          <div class="dash-box">
+            <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 20px;">
+              Appearance
+            </h3>
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+              <div>
+                <h4 style="font-size: 15px; font-weight: 600; margin-bottom: 4px;">
+                  Theme Mode
+                </h4>
+                <p style="font-size: 13px; color: var(--ink-soft);">
+                  Switch between light and dark canvas appearances.
+                </p>
+              </div>
+              <button class="theme-toggle" style="width: 44px; height: 44px; font-size: 18px;">
+                🌙
+              </button>
+            </div>
+          </div>
+          <div class="dash-box">
+            <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 20px;">
+              Email Notifications
+            </h3>
+            <div style="display: flex; flex-direction: column; gap: 16px;">
+              <label style="display: flex; align-items: center; gap: 12px; font-size: 14.5px; cursor: pointer;">
+                <input checked="" style="width: 18px; height: 18px; accent-color: var(--violet);" type="checkbox"/>
+                Weekly learning progress summaries
+              </label>
+              <label style="display: flex; align-items: center; gap: 12px; font-size: 14.5px; cursor: pointer;">
+                <input checked="" style="width: 18px; height: 18px; accent-color: var(--violet);" type="checkbox"/>
+                Course announcements and reminders
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../javascript/theme.js">
+    </script>
+    <script src="../javascript/nav.js">
+    </script>
+    <script src="../javascript/auth.js">
+    </script>
+  </body>
+</html>

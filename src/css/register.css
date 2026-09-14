@@ -1,0 +1,4 @@
+/* Register-specific refinements */
+.auth-card.register-card {
+  max-width:470px
+}

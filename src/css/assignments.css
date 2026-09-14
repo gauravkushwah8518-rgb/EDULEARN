@@ -1,0 +1,49 @@
+/* Assignments Page CSS */
+.assignment-table-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 14px;
+}
+th, td {
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--border);
+}
+th {
+  background: var(--surface-alt);
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+tr:last-child td {
+  border-bottom: none;
+}
+.badge-status {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.badge-status.pending {
+  background: var(--amber-soft);
+  color: var(--amber);
+}
+.badge-status.completed {
+  background: var(--teal-soft);
+  color: var(--teal);
+}
+.badge-status.overdue {
+  background: var(--coral-soft);
+  color: var(--coral);
+}

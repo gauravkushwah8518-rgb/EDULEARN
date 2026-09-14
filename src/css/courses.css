@@ -1,0 +1,45 @@
+/* Courses Catalog Styles */
+.catalog-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 60px 32px;
+  text-align: center;
+}
+.catalog-header h1 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.catalog-header p {
+  font-size: 16px;
+  color: var(--ink-soft);
+  max-width: 600px;
+  margin: 0 auto 32px;
+}
+.filter-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.filter-tab {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.filter-tab:hover, .filter-tab.active {
+  background: var(--violet);
+  color: white;
+  border-color: var(--violet);
+}
+.catalog-body {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 60px 32px;
+}

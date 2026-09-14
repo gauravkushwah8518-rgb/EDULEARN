@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>
+      Assignments &mdash; EduLearn
+    </title>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <link href="../css/dashboard.css" rel="stylesheet"/>
+    <link href="../css/assignments.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="app-layout">
+      <aside class="sidebar">
+        <div>
+          <div class="sidebar-brand">
+            <div class="brand-mark">
+              E
+            </div>
+            EduLearn
+          </div>
+          <div class="sidebar-menu-group">
+            <div class="sidebar-menu-title">
+              Main
+            </div>
+            <div class="sidebar-menu">
+              <a class="sidebar-link" href="./dashboard.html">
+                📊 Dashboard
+              </a>
+              <a class="sidebar-link" href="./my-courses.html">
+                📚 My Courses
+              </a>
+            </div>
+          </div>
+          <div class="sidebar-menu-group">
+            <div class="sidebar-menu-title">
+              Learning
+            </div>
+            <div class="sidebar-menu">
+              <a class="sidebar-link active" href="./assignments.html">
+                📝 Assignments
+              </a>
+              <a class="sidebar-link" href="./certificates.html">
+                🏆 Certificates
+              </a>
+              <a class="sidebar-link" href="./messages.html">
+                💬 Messages
+              </a>
+            </div>
+          </div>
+          <div class="sidebar-menu-group">
+            <div class="sidebar-menu-title">
+              Account
+            </div>
+            <div class="sidebar-menu">
+              <a class="sidebar-link" href="./profile.html">
+                👤 Profile
+              </a>
+              <a class="sidebar-link" href="./settings.html">
+                ⚙️ Settings
+              </a>
+              <a class="sidebar-link" href="../../index.html">
+                🚪 Logout
+              </a>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="dashboard-main">
+        <header class="topbar">
+          <div class="search-box">
+            <span class="search-icon">
+              🔍
+            </span>
+            <input placeholder="Search assignments..." type="text"/>
+          </div>
+          <div class="topbar-actions">
+            <button aria-label="Toggle theme" class="theme-toggle">
+              🌙
+            </button>
+            <div class="notification-btn">
+              🔔
+            </div>
+            <div class="user-profile-chip">
+              <div class="user-avatar">
+                EL
+              </div>
+              <span class="user-name">
+                Learner
+              </span>
+            </div>
+          </div>
+        </header>
+        <div class="dashboard-content">
+          <div style="margin-bottom: 32px;">
+            <h1 style="font-size: 26px; font-weight: 700; margin-bottom: 6px;">
+              Assignments &amp; Projects
+            </h1>
+            <p style="color: var(--ink-soft); font-size: 15px;">
+              Submit your course projects and view instructor feedback.
+            </p>
+          </div>
+          <div class="assignment-table-card">
+            <div class="table-responsive">
+              <table>
+                <thead>
+                  <tr>
+                    <th>
+                      Assignment Title
+                    </th>
+                    <th>
+                      Course
+                    </th>
+                    <th>
+                      Due Date
+                    </th>
+                    <th>
+                      Status
+                    </th>
+                    <th>
+                      Action
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="font-weight: 600;">
+                      Responsive Landing Page
+                    </td>
+                    <td>
+                      Modern Web Development
+                    </td>
+                    <td>
+                      Sept 20, 2026
+                    </td>
+                    <td>
+                      <span class="badge-status pending">
+                        Pending
+                      </span>
+                    </td>
+                    <td>
+                      <a class="btn btn-primary btn-sm" href="#">
+                        Submit Work
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="font-weight: 600;">
+                      Figma Mobile App Wireframe
+                    </td>
+                    <td>
+                      UI/UX Design Fundamentals
+                    </td>
+                    <td>
+                      Sept 15, 2026
+                    </td>
+                    <td>
+                      <span class="badge-status completed">
+                        Completed
+                      </span>
+                    </td>
+                    <td>
+                      <a class="btn btn-outline btn-sm" href="#">
+                        View Feedback
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="font-weight: 600;">
+                      Pandas Data Cleaning Script
+                    </td>
+                    <td>
+                      Python for Data Science
+                    </td>
+                    <td>
+                      Sept 10, 2026
+                    </td>
+                    <td>
+                      <span class="badge-status completed">
+                        Completed
+                      </span>
+                    </td>
+                    <td>
+                      <a class="btn btn-outline btn-sm" href="#">
+                        View Feedback
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../javascript/theme.js">
+    </script>
+    <script src="../javascript/nav.js">
+    </script>
+    <script src="../javascript/auth.js">
+    </script>
+  </body>
+</html>

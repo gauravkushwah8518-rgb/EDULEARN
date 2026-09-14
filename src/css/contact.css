@@ -1,0 +1,21 @@
+/* Contact CSS */
+.contact-grid {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 60px 32px;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+}
+.contact-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  box-shadow: var(--shadow-card);
+}
+@media (max-width: 1020px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>
+      Profile &mdash; EduLearn
+    </title>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <link href="../css/dashboard.css" rel="stylesheet"/>
+    <link href="../css/profile.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="app-layout">
+      <aside class="sidebar">
+        <div>
+          <div class="sidebar-brand">
+            <div class="brand-mark">
+              E
+            </div>
+            EduLearn
+          </div>
+          <div class="sidebar-menu-group">
+            <div class="sidebar-menu-title">
+              Main
+            </div>
+            <div class="sidebar-menu">
+              <a class="sidebar-link" href="./dashboard.html">
+                📊 Dashboard
+              </a>
+              <a class="sidebar-link" href="./my-courses.html">
+                📚 My Courses
+              </a>
+            </div>
+          </div>
+          <div class="sidebar-menu-group">
+            <div class="sidebar-menu-title">
+              Learning
+            </div>
+            <div class="sidebar-menu">
+              <a class="sidebar-link" href="./assignments.html">
+                📝 Assignments
+              </a>
+              <a class="sidebar-link" href="./certificates.html">
+                🏆 Certificates
+              </a>
+              <a class="sidebar-link" href="./messages.html">
+                💬 Messages
+              </a>
+            </div>
+          </div>
+          <div class="sidebar-menu-group">
+            <div class="sidebar-menu-title">
+              Account
+            </div>
+            <div class="sidebar-menu">
+              <a class="sidebar-link active" href="./profile.html">
+                👤 Profile
+              </a>
+              <a class="sidebar-link" href="./settings.html">
+                ⚙️ Settings
+              </a>
+              <a class="sidebar-link" href="../../index.html">
+                🚪 Logout
+              </a>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="dashboard-main">
+        <header class="topbar">
+          <div class="search-box">
+            <span class="search-icon">
+              🔍
+            </span>
+            <input placeholder="Search..." type="text"/>
+          </div>
+          <div class="topbar-actions">
+            <button aria-label="Toggle theme" class="theme-toggle">
+              🌙
+            </button>
+            <div class="notification-btn">
+              🔔
+            </div>
+            <div class="user-profile-chip">
+              <div class="user-avatar user-avatar-live">
+                EL
+              </div>
+              <span class="user-name" data-user-name="">
+                Learner
+              </span>
+            </div>
+          </div>
+        </header>
+        <div class="dashboard-content">
+          <div class="profile-header-card">
+            <div class="profile-avatar-large user-avatar-live">
+              EL
+            </div>
+            <div class="profile-info">
+              <h1 data-user-name="">
+                Learner
+              </h1>
+              <p>
+                Full-Stack Developer in Training &bull; Member since January 2026
+              </p>
+              <a class="btn btn-outline btn-sm" href="./settings.html">
+                Edit Profile
+              </a>
+            </div>
+          </div>
+          <div class="dash-box">
+            <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 20px;">
+              Personal Information
+            </h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+              <div>
+                <label style="font-size: 13px; color: var(--ink-soft); display: block; margin-bottom: 6px;">
+                  Full Name
+                </label>
+                <input class="form-control" data-user-name="" readonly="" type="text" value=""/>
+              </div>
+              <div>
+                <label style="font-size: 13px; color: var(--ink-soft); display: block; margin-bottom: 6px;">
+                  Email Address
+                </label>
+                <input class="form-control" data-user-email="" readonly="" type="email" value=""/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../javascript/theme.js">
+    </script>
+    <script src="../javascript/nav.js">
+    </script>
+    <script src="../javascript/auth.js">
+    </script>
+  </body>
+</html>

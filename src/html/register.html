@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+    <title>
+      Create Account &mdash; EduLearn
+    </title>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <link href="../css/auth.css" rel="stylesheet"/>
+    <link href="../css/register.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="auth-container">
+      <section class="auth-visual">
+        <div class="auth-visual-grid">
+        </div>
+        <a class="auth-brand" href="../../index.html">
+          <span class="brand-mark">
+            E
+          </span>
+          EduLearn
+        </a>
+        <div class="auth-visual-copy">
+          <span class="eyebrow">
+            Start learning today
+          </span>
+          <h2>
+            Build skills.
+            <br/>
+            <span>
+              Shape your future.
+            </span>
+          </h2>
+          <p>
+            Create your free EduLearn account and keep every course, project and achievement in one place.
+          </p>
+          <div class="auth-benefits">
+            <div class="auth-benefit">
+              <i>
+                &checkmark;
+              </i>
+              Access quality courses at your pace
+            </div>
+            <div class="auth-benefit">
+              <i>
+                &checkmark;
+              </i>
+              Track your progress automatically
+            </div>
+            <div class="auth-benefit">
+              <i>
+                &checkmark;
+              </i>
+              Earn certificates as you learn
+            </div>
+          </div>
+        </div>
+        <div class="auth-quote">
+          &ldquo;Small progress every day becomes a big skill tomorrow.&rdquo;
+          <strong>
+            &mdash; EduLearn Learning Team
+          </strong>
+        </div>
+      </section>
+      <main class="auth-form-side">
+        <div class="auth-card register-card">
+          <div class="auth-header">
+            <a class="auth-brand auth-mobile-brand" href="../../index.html">
+              <span class="brand-mark">
+                E
+              </span>
+              EduLearn
+            </a>
+            <h1>
+              Create your account
+            </h1>
+            <p>
+              Join EduLearn and start building real-world skills.
+            </p>
+          </div>
+          <div class="auth-socials">
+            <button class="auth-social" data-social="Google" type="button">
+              G&nbsp;&nbsp; Continue with Google
+            </button>
+            <button class="auth-social" data-social="Facebook" type="button">
+              f&nbsp;&nbsp; Continue with Facebook
+            </button>
+          </div>
+          <div class="auth-divider">
+            <span>
+              or sign up with email
+            </span>
+          </div>
+          <form id="registerForm">
+            <div class="auth-name-row">
+              <div class="form-group">
+                <label for="firstName">
+                  First name
+                </label>
+                <input class="form-control" id="firstName" placeholder="Your first name" required="" type="text"/>
+              </div>
+              <div class="form-group">
+                <label for="lastName">
+                  Last name
+                </label>
+                <input class="form-control" id="lastName" placeholder="Your last name" type="text"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="registerEmail">
+                Email address
+              </label>
+              <input class="form-control" id="registerEmail" placeholder="you@gmail.com" required="" type="email"/>
+            </div>
+            <div class="form-group">
+              <label for="registerPassword">
+                Password
+              </label>
+              <input class="form-control" id="registerPassword" minlength="8" placeholder="At least 8 characters" required="" type="password"/>
+            </div>
+            <label class="auth-check">
+              <input required="" type="checkbox"/>
+              <span>
+                I agree to the
+                <a href="./terms.html">
+                  Terms
+                </a>
+                and
+                <a href="./privacy-policy.html">
+                  Privacy Policy
+                </a>
+                .
+              </span>
+            </label>
+            <div class="auth-status" id="registerStatus">
+            </div>
+            <button class="btn btn-primary" type="submit">
+              Create account
+            </button>
+          </form>
+          <div class="auth-footer-text">
+            Already have an account?
+            <a href="./login.html">
+              Log in
+            </a>
+          </div>
+          <div class="auth-note">
+            Your account details are stored locally in this frontend demo.
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="../javascript/theme.js">
+    </script>
+    <script src="../javascript/auth.js">
+    </script>
+  </body>
+</html>
