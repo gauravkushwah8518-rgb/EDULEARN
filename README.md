@@ -120,7 +120,7 @@ I built EduLearn to practice and demonstrate practical frontend development skil
 
 ## 👨‍💻 Author
 
-**Poonam Thakur**
+**gaurav kushwah**
 
 Built as a frontend web development project using HTML, CSS and JavaScript.
 
